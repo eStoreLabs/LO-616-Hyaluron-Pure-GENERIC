@@ -99,9 +99,6 @@
   animation-delay: 0.9s;
   text-align: center;
 }
-#es-rc #es-rc-content .es-benefits {
-  padding-top: 20px;
-}
 #es-rc #es-rc-content .es-benefits__img {
   margin-bottom: 25px;
 }
@@ -508,7 +505,7 @@
   #es-rc #es-rc-content .es-cross__products {
     justify-content: space-evenly;
     -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
   }
   #es-rc #es-rc-content .es-cross__product {
     width: 49%;
