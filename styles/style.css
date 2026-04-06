@@ -224,7 +224,6 @@
 }
 #es-rc #es-rc-content .es-benefits {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 #es-rc #es-rc-content .es-benefits__container {
   display: flex;
@@ -425,21 +424,23 @@
   text-align: center;
 }
 #es-rc #es-rc-content .es-cross__description {
-  margin-bottom: 30px;
-  font-size: 14px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
   text-align: center;
   min-height: 50px;
 }
 #es-rc #es-rc-content .es-cross__link {
-  width: 70%;
+  width: 63%;
   position: relative;
   z-index: 1;
   border-radius: 8px;
   display: inline-block;
-  padding: 20px 48px;
+  padding: 22px 48px;
   color: #fff;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 15px;
   overflow: hidden;
   text-decoration: none;
   text-transform: uppercase;
@@ -473,8 +474,8 @@
   max-width: 100%;
 }
 #es-rc #es-rc-content .es-footer__disclaimer {
-  margin-bottom: 32px;
-  font-size: 10px;
+  margin-bottom: 48px;
+  font-size: 12px;
   text-align: center;
 }
 #es-rc #es-rc-content .es-footer__container {
@@ -510,11 +511,18 @@
     position: relative;
     z-index: 1;
   }
+  #es-rc #es-rc-content .es-kv__title--mobile {
+    display: none;
+  }
+  #es-rc #es-rc-content .es-kv__title--desktop {
+    display: block;
+  }
   #es-rc #es-rc-content .es-kv__branding {
     padding: 0;
   }
   #es-rc #es-rc-content .es-kv__logo-img {
-    max-width: 75%;
+    max-width: 135px;
+    margin-left: 40px;
   }
   #es-rc #es-rc-content .es-kv__logo {
     position: absolute;
@@ -527,7 +535,7 @@
   #es-rc #es-rc-content .es-kv__packshot {
     position: absolute;
     bottom: 0;
-    right: 25px;
+    right: 15px;
   }
   #es-rc #es-rc-content .es-kv__title {
     text-align: left;
@@ -537,8 +545,8 @@
   }
   #es-rc #es-rc-content .es-kv__left {
     position: absolute;
-    bottom: 0;
-    left: 5px;
+    bottom: 0px;
+    left: 10px;
   }
   #es-rc #es-rc-content .es-kv__bg-img--desktop {
     display: block;
@@ -558,8 +566,9 @@
   }
   #es-rc #es-rc-content .es-benefits__text {
     position: absolute;
-    top: 50%;
-    left: 5%;
+    top: 45%;
+    left: 4%;
+    font-size: 30px;
   }
   #es-rc #es-rc-content .es-fresh {
     padding-bottom: 0;
@@ -576,8 +585,17 @@
   #es-rc #es-rc-content .es-fresh__text-group {
     position: absolute;
     top: 50%;
-    right: 5%;
+    right: -1%;
     transform: translate(-5%, -50%);
+  }
+  #es-rc #es-rc-content .es-fresh__title {
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 23px;
+    line-height: 1.4;
+  }
+  #es-rc #es-rc-content .es-fresh__title--bold {
+    font-size: 28px;
   }
   #es-rc #es-rc-content .es-moisture {
     padding-top: 0;
@@ -595,6 +613,10 @@
     left: 5%;
     transform: translate(-5%, -50%);
     text-align: left;
+    font-size: 23px;
+  }
+  #es-rc #es-rc-content .es-moisture__title--bold {
+    font-size: 31px;
   }
   #es-rc #es-rc-content .es-formula {
     position: relative;
@@ -617,7 +639,36 @@
   #es-rc #es-rc-content .es-formula__left-image, #es-rc #es-rc-content .es-formula__right-image {
     max-width: 200px;
   }
+  #es-rc #es-rc-content .es-formula {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  #es-rc #es-rc-content .es-formula__text {
+    font-size: 30px;
+  }
+  #es-rc #es-rc-content .es-formula__title {
+    margin-bottom: 10px;
+    font-size: 23px;
+  }
+  #es-rc #es-rc-content .es-formula__left-image, #es-rc #es-rc-content .es-formula__right-image {
+    max-width: 250px;
+  }
+  #es-rc #es-rc-content .es-formula__left {
+    top: 55%;
+    left: 6%;
+    transform: translate(-5%, -50%);
+  }
+  #es-rc #es-rc-content .es-formula__right {
+    bottom: initial;
+    top: 65%;
+    right: 1.4%;
+  }
+  #es-rc #es-rc-content .es-formula__right-image {
+    margin-bottom: 20px;
+  }
   #es-rc #es-rc-content .es-cross__title {
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 30px;
   }
   #es-rc #es-rc-content .es-cross__products {
@@ -625,7 +676,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     -moz-column-gap: 10px;
-         column-gap: 10px;
+    column-gap: 10px;
   }
   #es-rc #es-rc-content .es-cross__product {
     width: 49%;
@@ -638,12 +689,42 @@
   }
   #es-rc #es-rc-content .es-footer__logo {
     flex: 2;
+    max-width: 24%;
   }
   #es-rc #es-rc-content .es-footer__nr {
     flex: 1;
   }
   #es-rc #es-rc-content .es-footer__texts {
     flex: 2;
+  }
+}
+@media screen and (min-width: 900px) {
+  #es-rc #es-rc-content .es-kv__left {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+  }
+  #es-rc #es-rc-content .es-kv__img--1 {
+    max-height: 200px;
+  }
+  #es-rc #es-rc-content .es-formula__left-image, #es-rc #es-rc-content .es-formula__right-image {
+    max-width: 350px;
+  }
+  #es-rc #es-rc-content .es-formula__left {
+    top: 53%;
+    left: 6%;
+    transform: translate(-5%, -50%);
+  }
+  #es-rc #es-rc-content .es-formula__right {
+    bottom: initial;
+    top: 58%;
+    right: 1.4%;
+  }
+  #es-rc #es-rc-content .es-fresh__text-group {
+    position: absolute;
+    top: 53%;
+    right: 7%;
+    transform: translate(-5%, -50%);
   }
 }
 @keyframes slidedown {
