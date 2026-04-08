@@ -608,6 +608,7 @@ $secondary: #9880ad;
             padding-bottom: 0;
 
             &__text {
+                margin-bottom: 30px;
                 font-size: 30px;
             }
 
@@ -736,14 +737,14 @@ $secondary: #9880ad;
 
         .es-fresh {
             &__text-group {
-                top: 53%;
-                right: 7%;
+                top: 53.8%;
+                right: 3%;
             }
         }
 
         .es-formula {
             &__left {
-                top: 53%;
+                top: 57%;
                 left: 6%;
             }
 
@@ -752,8 +753,8 @@ $secondary: #9880ad;
             }
 
             &__right {
-                top: 58%;
-                right: 1.4%;
+                top: 62.3%;
+                right: 0.9%;
             }
 
             &__right-image {
@@ -778,7 +779,7 @@ $secondary: #9880ad;
 
             &__img {
                 &--1 {
-                    max-height: 300px;
+                    max-height: 250px;
                 }
             }
         }

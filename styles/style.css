@@ -452,6 +452,7 @@
     padding-bottom: 0;
   }
   #es-rc #es-rc-content .es-formula__text {
+    margin-bottom: 30px;
     font-size: 30px;
   }
   #es-rc #es-rc-content .es-formula__left {
@@ -536,19 +537,19 @@
     max-height: 200px;
   }
   #es-rc #es-rc-content .es-fresh__text-group {
-    top: 53%;
-    right: 7%;
+    top: 53.8%;
+    right: 3%;
   }
   #es-rc #es-rc-content .es-formula__left {
-    top: 53%;
+    top: 57%;
     left: 6%;
   }
   #es-rc #es-rc-content .es-formula__left-image {
     max-width: 350px;
   }
   #es-rc #es-rc-content .es-formula__right {
-    top: 58%;
-    right: 1.4%;
+    top: 62.3%;
+    right: 0.9%;
   }
   #es-rc #es-rc-content .es-formula__right-image {
     max-width: 350px;
@@ -565,7 +566,7 @@
     font-size: 30px;
   }
   #es-rc #es-rc-content .es-kv__img--1 {
-    max-height: 300px;
+    max-height: 250px;
   }
 }
 @keyframes slidedown {
