@@ -377,7 +377,7 @@
     right: 15px;
   }
   #es-rc #es-rc-content .es-kv__img--1 {
-    max-height: 200px;
+    max-height: 160px;
   }
   #es-rc #es-rc-content .es-kv__bg-img--desktop {
     display: block;
@@ -534,7 +534,7 @@
     left: 10px;
   }
   #es-rc #es-rc-content .es-kv__img--1 {
-    max-height: 200px;
+    max-height: 210px;
   }
   #es-rc #es-rc-content .es-fresh__text-group {
     top: 53.8%;
@@ -567,7 +567,7 @@
     font-size: 30px;
   }
   #es-rc #es-rc-content .es-kv__img--1 {
-    max-height: 250px;
+    max-height: 240px;
   }
 }
 @keyframes slidedown {
