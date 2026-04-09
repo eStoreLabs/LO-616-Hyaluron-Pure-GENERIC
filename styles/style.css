@@ -115,7 +115,7 @@
   z-index: 1;
 }
 #es-rc #es-rc-content .es-benefits__text {
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   font-size: 18px;
   text-align: center;
   text-transform: uppercase;
@@ -560,6 +560,7 @@
     max-width: 315px;
   }
   #es-rc #es-rc-content .es-kv__left {
+    margin-left: 20px;
     max-width: 415px;
   }
   #es-rc #es-rc-content .es-kv__title {
